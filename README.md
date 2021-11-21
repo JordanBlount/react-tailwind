@@ -5,7 +5,7 @@ Experiment using Tailwind.
 
 ## Tech Stack
 
-**Client:** React.js, Tailwind
+**Client:** React.js, Tailwind, React Icons, React Router Dom
 
 **Editors:** VS Code
 
