@@ -5,7 +5,7 @@ Experiment using Tailwind.
 
 ## Tech Stack
 
-**Client:** Next.js, Tailwind
+**Client:** React.js, Tailwind
 
 **Editors:** VS Code
 
