@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return (
-        <nav className="w-full fixed top-0">
+        <nav className="w-full fixed z-50">
             <div className="mx-auto lg:container px-3 flex items-center justify-between h-16">
                 <div className="flex items-center space-x-4">
                     <Link to="/" className="text-white text-2xl font-bold">Jordan Blount</Link>
@@ -15,18 +15,18 @@ const Navbar = () => {
                 <div className="hidden lg:block items-center">
                     <ui className="hidden lg:flex items-center space-x-10 list-none text-white">
                         <li>
-                            <a href="#" className="hover:text-blue-200">Home</a>
+                            <Link to="/" className="hover:text-blue-200">Home</Link>
                         </li>
                         <li>
-                            <a href="#" className="hover:text-blue-200">About</a>
+                            <Link to="/about" className="hover:text-blue-200">About</Link>
                         </li>
                         <li>
-                            <a href="#" className="hover:text-blue-200">Articles</a>
+                            <Link to="/articles" className="hover:text-blue-200">Articles</Link>
                         </li>
                         <li>
-                            <a href="#" className="">
+                            <Link to="/contact" className="">
                                 <button className="bg-blue-500 py-1.5 px-2.5 rounded-md hover:bg-blue-400">Contact Me</button>
-                            </a>
+                            </Link>
                         </li>
                     </ui>
                 </div>
