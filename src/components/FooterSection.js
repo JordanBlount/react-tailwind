@@ -26,7 +26,7 @@ const FooterSection = () => {
                     fill="#fff"
                 />
             </svg>
-            <span className="text-xs md:text-sm">© 2021 <Link to="#" className="hover:text-blue-200">Jordan Blount</Link> - Built with React.js, TailwindCSS </span>
+            <span className="text-xs md:text-sm">© 2021 <Link to="#" className="hover:text-blue-200">Jordan Blount</Link> - Built with <a href="https://reactjs.org/" target='_blank' rel="noopener" aria-label="React JS" className="hover:text-blue-200">React.js</a>, <a href="https://tailwindcss.com/" target='_blank' rel="noopener" aria-label="TailwindCSS" className="hover:text-blue-200">TailwindCSS</a> </span>
         </footer>
     )
 }

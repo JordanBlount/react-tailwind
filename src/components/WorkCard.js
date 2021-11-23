@@ -2,7 +2,7 @@ import React from 'react'
 
 const WorkCard = ({ company, job, icon, years }) => {
     return (
-        <div className="w-11/12 md:w-3/4 lg:w-1/2 border-2 rounded-md border-gray-200 p-8 shadow-sm flex">
+        <div className="w-11/12 md:w-3/4 lg:w-1/2 border rounded-md border-gray-200 p-8 shadow-sm flex">
             <div className="flex flex-col items-center">
                 {icon}
                 <h2>{company}</h2>
