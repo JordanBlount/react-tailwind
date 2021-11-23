@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaApple } from 'react-icons/fa';
 
 const WorkCard = ({ company, job, icon, years }) => {
     return (
