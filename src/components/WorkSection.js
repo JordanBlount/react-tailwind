@@ -6,7 +6,7 @@ import WorkCard from '../components/WorkCard'
 
 const WorkSection = () => {
     return (
-        <section className="bg-white min-h-screen pt-10">
+        <section id="work" className="bg-white min-h-screen pt-10">
             <div className="mx-3 lg:container lg:mx-auto">
                 <h2 className="text-2xl text-center capitalize text-blue-500 font-medium mb-10">My work</h2>
                 <div className="flex flex-col items-center space-y-10">
